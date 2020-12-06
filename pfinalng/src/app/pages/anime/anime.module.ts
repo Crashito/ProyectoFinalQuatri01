@@ -1,10 +1,9 @@
-import { NgModule } from '@angular/core';
+import { NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
+import { AnimeComponent } from './anime.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [AnimeComponent],
   imports: [
     CommonModule
   ]
